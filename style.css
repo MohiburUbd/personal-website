@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+   height:700px;
+}
+.top-banner{
+    background-image:url("image/header-bg.png");
+    background-size:cover;
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left:5%;
+}
+h1{
+    font-size:50px;
+}
+.Top-head{
+    font-weight:500;
+}
+.name{
+    color: cyan;
+}
+p{
+    color: gray;
+    padding-bottom: 30px;
+}
+.button{
+    text-decoration: none;
+    color:white;
+    background-image: linear-gradient(45deg, cyan, cyan);
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+.button:hover{
+    background-image: linear-gradient(90deg, orange, orange);
+    transition: 0.4s;
+}
+.half-width img{
+    padding-left: 20%;
+    width:90%;
+}
+.decoration{
+    padding-top: 160px;
+    padding-left: 100px;
+}
+.decoration h2{
+    font-size:40px;    
+}
+.decoration h2:hover{
+    color: #ff247a;
+}
+.download-button{
+    text-decoration: none;
+    color:white;
+    background-image: linear-gradient(45deg, #ff247a, #d6125f);
+    padding: 10px 25px;
+    border-radius: 7px;
+}
+.download-button:hover{
+    background-image: linear-gradient(90deg, orange, orange);
+    border-radius: 7px;
+    transition: 0.4s;
+}
+.biograaphy-area{
+    background-image:url("image/biography-bg.png");
+    background-size:cover;
+    
+}
+.latest-work{
+    width:100%;
+    height:550px;
+    background-image: url("image/latest-work-bg.png");
+    background-size: cover;
+    background-position: center;
+}
+.latest-work h2:hover{
+    color: rgb(75, 230, 144, 38);
+}
+ .work-clint{
+    font-size:40px;
+    text-align:center;
+}
+.work{
+    width:100%;
+    height:100%;
+}
+.work-img img{
+    width:30%;
+    height:400px;
+    float:left;
+    margin-left:1%;
+    padding-left: 1.5%;
+}
+.work-img img:hover{
+    box-shadow:20px 20px 40px gray;
+    transition:0.4s;
+}
+.work-clint h2:hover{
+    color: #ff247a;
+    transition:0.4s;
+}
+.title{
+    margin-bottom: 0px;
+    margin-top:0px;
+    text-align:center;
+}
+.description{
+    margin:0px;
+    padding: 0px;
+    text-align:center;
+    color:#000;
+}
+.contract-box{
+    width:50%;
+    height:200px;
+    margin-top:80px;
+    background-image:linear-gradient(45deg, #ff136f, #dc0f5f);
+    text-align:center;
+    margin-left:25%;
+    border-radius: 20px;
+    
+}
+.contract-box p{
+    padding-top: 60px;
+    color:white;
+    font-size:18px;
+    margin:0px;
+}
+.contract-box a{
+    text-decoration: none;
+    color:white;
+    font-size:25px;
+}
+.contract-box:hover{
+    box-shadow: 20px 20px 40px gray;
+    transition: 0.4s;
+}
+.client-area{
+    background-image: url('image/footer-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+footer p{
+    text-align: center;
+    font-size: 20px; 
+}
